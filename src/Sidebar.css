@@ -1,0 +1,36 @@
+.sidebar {
+  background-color: black;
+  height: 100vh;
+  flex: 0.2;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.sidebar__components {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__components > img {
+  width: 30%;
+  padding-bottom: 20px;
+}
+
+.sidebar__playlists > hr {
+  width: 90%;
+  align-self: center;
+  margin-top: 10px;
+  opacity: 20%;
+}
+
+.sidebar__playlistName {
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.sidebar__playlistName > h4 {
+  padding-top: 20px;
+}
+
+.sidebar__playlistName:hover {
+  color: white;
+}

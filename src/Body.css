@@ -1,0 +1,68 @@
+.body {
+  border: 2px solid black;
+  height: 100vh;
+  flex: 0.8;
+  overflow: scroll;
+
+  background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 01));
+}
+
+.body__playlist {
+  color: white;
+  display: flex;
+  padding-top: 40px;
+  padding-left: 30px;
+  align-items: flex-end;
+}
+
+.body__playlistLeft {
+  display: flex;
+  align-items: flex-end;
+}
+
+.body__playlistLeft > img {
+  object-fit: contain;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.body__playlistRight {
+  padding-left: 30px;
+  align-items: center;
+}
+
+.body__playlistRight > h1 {
+  font-size: 90px;
+}
+
+.body__songlist {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.body__controls {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.body__controlsGreenPlay {
+  color: #1bd760;
+  font-size: 66px !important;
+  padding-right: 20px;
+}
+
+.body__controlsGreenFav {
+  color: #1bd760;
+  font-size: 35px !important;
+  padding-left: 20px;
+}
+
+.body__controlsGray {
+  color: gray;
+  font-size: 35px !important;
+  padding-left: 40px;
+}

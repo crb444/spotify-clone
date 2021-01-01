@@ -1,0 +1,21 @@
+.songrow {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.songrow__left > img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.songrow__right {
+  color: white;
+  margin-left: 20px;
+}
+
+.songrow__right > p {
+  color: gray;
+  font-weight: 500;
+}
