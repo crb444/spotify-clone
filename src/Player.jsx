@@ -5,6 +5,7 @@ import "./Sidebar";
 import Sidebar from "./Sidebar";
 import Body from "./Body";
 import Footer from "./Footer";
+import DiscoverWeekly from "./DiscoverWeekly";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -21,7 +22,7 @@ function Player({ spotify }) {
               <Body spotify={spotify} />
             </Route>
             <Route path="/" exact>
-              <h1>This</h1>
+              <DiscoverWeekly spotify={spotify} />
             </Route>
           </Switch>
         </div>
