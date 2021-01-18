@@ -44,6 +44,11 @@ function DiscoverWeekly({ spotify }) {
         <FavoriteIcon className="discoverweekly__controlsGreenFav" />
         <MoreHorizIcon className="discoverweekly__controlsGray" />
       </div>
+      <div className="discoverweekly__row">
+        <h4>TITLE</h4>
+        <h4>ALBUM</h4>
+      </div>
+      <hr />
       <div className="discoverweekly__songlist">
         {user.discoverWeekly?.tracks?.items?.map((track) => {
           return (
@@ -53,6 +58,7 @@ function DiscoverWeekly({ spotify }) {
               artist={track.track?.artists}
               playSong={playSong}
               songId={track.track?.id}
+              albumName={track.track?.album?.name}
             />
           );
         })}

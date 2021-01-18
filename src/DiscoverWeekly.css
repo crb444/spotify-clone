@@ -66,3 +66,23 @@
   font-size: 35px !important;
   padding-left: 40px;
 }
+
+.discoverweekly__row {
+  display: flex;
+  color: gray;
+
+  margin-top: 20px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.discoverweekly__row > h4 {
+  margin-left: 40px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.discoverweekly > hr {
+  opacity: 20%;
+  align-self: center;
+}
